@@ -3,6 +3,7 @@ title: GitHub Hexo Next搭建博客
 date: 2019-01-26 20:12:41
 tags: [ github, hexo, next]
 ---
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=29999285&auto=0&height=32"></iframe>
 ## GitHub账号注册
 GitHub上新建一个仓库，命名为user.github.io
 ## Git安装使用
@@ -21,6 +22,15 @@ ssh-keygen -t rsa -C "youremail@example.com"
 测试
 ``` bash
 ssh -T git@github.com
+```
+### 常用命令
+```bash
+git init
+git add .
+git commit -m "注释语句"
+git remote add origin https://自己的仓库url地址
+git pull origin master
+git push -u origin master
 ```
 ## Node.js安装配置
 使用管理员权限打开命令行工具并且cd到node安装包的项目文件夹，执行下面代码：
